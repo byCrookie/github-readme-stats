@@ -7,7 +7,7 @@ import gistCard from "./api/gist.js";
 import express from "express";
 
 const app = express();
-app.listen(process.env.port || 9000);
+app.listen(9000);
 
 app.get("/", statsCard);
 app.get("/pin", repoCard);
