@@ -1,19 +1,9 @@
-# flyctl launch added from .gitignore
-**\.vercel
-**\.env
-**\node_modules
-**\*.lock
-**\.idea
-**\coverage
-**\vercel_token
-
-# IDE
-**\.vscode\*
-!**\.vscode\extensions.json
-!**\.vscode\settings.json
-**\*.code-workspace
-
-**\.vercel
-
-.husky\**\_
-.husky\_\**\*
+node_modules
+*.lock
+.idea
+coverage
+.vscode
+.husky
+docs
+tests
+.github
