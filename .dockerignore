@@ -15,9 +15,5 @@
 
 **\.vercel
 
-# flyctl launch added from .husky\.gitignore
 .husky\**\_
-
-# flyctl launch added from .husky\_\.gitignore
 .husky\_\**\*
-fly.toml
